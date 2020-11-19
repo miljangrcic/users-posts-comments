@@ -1,0 +1,13 @@
+
+<div class="card">
+    <div class="card-title">
+        <h2>{{post.title}}</h2>
+    </div>
+    <div class="card-body">
+        {{post.body}}
+
+    </div>
+    <app-comment-list [postId]="post.id">
+
+    </app-comment-list>
+</div>

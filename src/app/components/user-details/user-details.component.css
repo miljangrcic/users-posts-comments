@@ -1,0 +1,22 @@
+app-post-list {
+    width: 50%;
+    display: block; 
+}
+
+app-post {
+    width: 50%;
+    position: absolute;
+    top: 2px;
+    border: 0;
+    background-color: grey;
+}
+.list-group {
+    width: 50%;
+    display: block;
+    float: left;
+}
+
+app-post-list, .list-group {
+    padding-right: 5px;
+    box-sizing: border-box;
+}

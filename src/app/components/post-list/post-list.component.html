@@ -1,0 +1,10 @@
+<h3>Posts</h3>
+<ul class="list-group" id="posts">
+    <li 
+    [class.selected]="i == selectedRow"
+    *ngFor="let p of posts; let i=index;"
+    class="list-group-item" 
+    (click)="emitSelect(p, i)">
+        {{p.title}}
+    </li>
+</ul>

@@ -1,0 +1,12 @@
+<ul class="list-group list-group-flush">
+    <li class="list-group-item">Name: {{user.name}}</li>
+    <li class="list-group-item">Email: {{user.email}}</li>
+    <li class="list-group-item">City: {{user.address.city}}</li>
+    <li class="list-group-item">Street: {{user.address.street}}</li>
+    <li class="list-group-item">Zip Code:{{user.address.zipcode}}</li>
+</ul>
+
+<app-post *ngIf="selectedPost" [post]="selectedPost"></app-post>
+
+<app-post-list (onSelect)="selectedPost = $event" [userId]="user.id"></app-post-list>
+

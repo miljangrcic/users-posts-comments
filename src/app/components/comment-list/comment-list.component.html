@@ -1,0 +1,7 @@
+<h3 class="text-danger">Comments</h3>
+<ul class="list-group">
+    <li class="list-group-item" *ngFor="let c of comments">
+        {{c.body}} <br>
+        <span class="text-danger">by: {{c.email}}</span>
+    </li>
+</ul>

@@ -1,0 +1,21 @@
+<h2>All users</h2>
+<table class="table table-bordered">
+    <tr>
+        <th>Name</th>
+        <th>Username</th>
+        <th>Email</th>
+        <th>Phone</th>
+        <th>Website</th>
+    </tr>
+
+    <tr 
+    *ngFor="let u of users"
+    (click)="onSelect.emit(u)"
+    >
+        <td>{{u.name}}</td>
+        <td>{{u.username}}</td>
+        <td>{{u.email}}</td>
+        <td>{{u.phone}}</td>
+        <td>{{u.website}}</td>
+    </tr>
+</table>

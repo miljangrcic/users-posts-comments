@@ -1,0 +1,7 @@
+#posts > li:hover {
+    background-color: lightgrey;
+    cursor: pointer;
+}
+.selected {
+    background-color: #f4f4f2;
+}

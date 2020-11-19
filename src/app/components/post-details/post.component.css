@@ -1,0 +1,14 @@
+h2 {
+    padding-left: 1.25rem;
+    font-family:  cursive;
+    color: #495464;
+    text-decoration: underline;
+}
+.card {
+    background-color: #f4f4f2;
+}
+.card-body {
+    font-size: 1.2em;
+    font-weight: 200;
+    font-family:  cursive;
+}
